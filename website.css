@@ -1,0 +1,48 @@
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-weight: bold;
+  color: aliceblue;
+  cursor: pointer;
+  padding-top: 30px;
+}
+.all {
+  background-color: rgb(180, 23, 212);
+  padding-bottom: 40px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.simple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.togle {
+  margin-left: 590px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 20px;
+  background-color: rgb(180, 23, 212);
+}
+.togle:active {
+  background-color: brown;
+}
+.togle:hover {
+  opacity: 0.8;
+}
